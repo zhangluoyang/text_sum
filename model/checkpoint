@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/john/PycharmProjects/seq2seq/model/model-0"
+all_model_checkpoint_paths: "/home/john/PycharmProjects/seq2seq/model/model-0"

@@ -1,0 +1,18 @@
+textsum: seq2seq+attention
+author: zhangluoyang email: 55058629@qq.com
+environment depedence:
+    python 3.5
+    json
+    pickle
+    numpy
+    tensorflow-gpu 1.1.0
+    jieba
+how to run:
+    just train:
+    python main.py --train_or_test 'train'
+    just test:
+    python main.py --train_or_test 'test'
+    train and test:
+    python main.py --train_or_test 'train_test'
+    start tensorboard:
+    tensorboard --logdir={YOUR_WORKSPACE/log}
