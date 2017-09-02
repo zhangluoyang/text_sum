@@ -1,6 +1,6 @@
 import tensorflow as tf
-from tensorflow.contrib.rnn.python.ops.core_rnn_cell import LSTMCell
-from tensorflow.contrib.rnn.python.ops.core_rnn import static_rnn
+from tensorflow.python.ops.rnn import static_rnn
+from tensorflow.python.ops.rnn_cell_impl import LSTMCell
 from tensorflow.contrib.legacy_seq2seq import attention_decoder
 from tensorflow.contrib.legacy_seq2seq import sequence_loss_by_example, sequence_loss
 import numpy as np
